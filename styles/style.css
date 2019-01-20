@@ -120,7 +120,7 @@ div.icons_wrap {
 	left: 1151px;
     	top: 50px;
 	display: flex;
-	width: 145px;
+	width: 120px;
 	justify-content: space-between;
 }
 
@@ -184,16 +184,19 @@ div.funride_wrap > div.funride_button:hover {
 
 /* 2.1 content */
 div.content {
-    width: 100%;
-    float: left;
-    margin-top: -20px;
+    width: 1170px;
+    margin: 0;    
+    position: absolute;
+    left: 165px;
+    top: 680px;
 }
 
 div.content > div.content_inside {
     width: 1170px;
-    min-height: inherit;
-    margin: 0 auto;
-    background: #ccc;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 
 div.content:after,
@@ -204,22 +207,29 @@ div.content > div.content_inside:after {
 }
 
 /* 2.2 left, right */
-div.content > div.content_inside > div.content_left {
-    position: absolute;
-    left: 165px;
-    top: 680px;
+div.content > div.content_inside > div.left_and_right {
+	position: relative;
+	top: 0px;
+	left: 0px;
+        margin: 0;
+        width: inherit;
+}
+
+div.content > div.content_inside > div.left_and_right > div.content_left {
+    position: relative;
+    top: 0px;
+    left: 0px;
     width: 270px;
     float: left;
 }
 
-div.content > div.content_inside > div.content_right {
+div.content > div.content_inside > div.left_and_right > div.content_right {
+    position: relative;
+    top: 0px;
+    left: 30px;
     width: 870px;
-    float: right;
-    position: absolute;
-    left: 465px;
-    top: 680px;
+    float: left;
 }
-
 
 /* 2.3. main_menu */
 div.main_menu {
@@ -292,7 +302,6 @@ div.now_is_open > div.now_is_open_inside > span {
 div.content_header {
     position: relative;
     top: 0px;
-    float: left;
     margin: 0px;
     height: 78px;
     width: 820px;
@@ -310,7 +319,6 @@ div.content_header {
 
 div.products_wrap {
     width: 100%;
-    float: left;
     margin-bottom: 30px;
 }
 
@@ -412,3 +420,20 @@ div.products_wrap > div.product_unit:nth-child(3n) {
 div.products_wrap > div.product_unit:nth-child(n+4) {
     margin-top: 30px;
 }
+
+/* 5 BRANDS */
+
+div.brands {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    clear: both;
+    height: 160px;
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
