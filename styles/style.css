@@ -437,3 +437,65 @@ div.brands {
     box-sizing: border-box;
 }
 
+/* 6 INSTARGAM */
+
+.istagram_wrap {
+    height: 350px;
+    background-color: #eaeaea;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+.instagram_head {
+    width: 100%;
+    height: 105px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto Black Italic", sans-serif;
+}
+
+.instagram_head > .inst_text > i {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: 0px;
+}
+
+.instagram_head > .inst_text {
+   position: relative;
+   top: 51px;
+}
+
+.instagram_head span {
+    font-size: 22px;
+}
+
+.instagram_images {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.instagram_images img {
+    border: 8px solid #fff;
+    box-sizing: border-box;
+}
+
+/* 7 BIG SOCIAL NET'S BUTTONS */
+.social_b_wrap {
+    height: 150px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.social_b_wrap > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+    height: inherit;
+    text-decoration: none;
+    color: #fff;
+    font-size: 4rem;
+}
