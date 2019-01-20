@@ -178,3 +178,77 @@ div.funride_wrap > div.funride_button:hover {
     background-color: #000;
 }
 
+
+/* 2 LEFT MENU */
+
+/* 2.1 content */
+div.content {
+    width: 100%;
+    float: left;
+    margin-top: -20px;
+    min-height: 800px;
+    background: #98ffa6;
+}
+
+div.content > div.content_inside {
+    width: 1170px;
+    min-height: inherit;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+div.content:after,
+div.content > div.content_inside:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* 2.2 left, right */
+div.content > div.content_inside > div.content_left {
+    width: 270px;
+    min-height: inherit;
+    background: #9da2ee;
+    float: left;
+}
+
+div.content > div.content_inside > div.content_right {
+    width: 870px;
+    float: right;
+    min-height: inherit;
+    background: #cc868a;
+}
+
+
+/* 2.3. main_menu */
+div.main_menu {
+	background-color:  #26d2fc;
+	width: 270px;
+	position: absolute;
+	left: 165px;
+	top: 680px;
+}
+
+div.main_menu > a {
+    display: block;
+    height: 37px;
+    line-height: 37px;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    padding: 0px 40px;
+}
+
+div.main_menu > a:first-child {
+    height: 66px;
+    background: #333;
+    color: #fff;
+    line-height: 66px;
+}
+
+div.main_menu > a:hover {
+    background-color: #333;
+    color: #fff;
+}
