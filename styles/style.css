@@ -206,6 +206,9 @@ div.content > div.content_inside:after {
 
 /* 2.2 left, right */
 div.content > div.content_inside > div.content_left {
+    position: absolute;
+    left: 165px;
+    top: 680px;
     width: 270px;
     min-height: inherit;
     background: #9da2ee;
@@ -224,9 +227,9 @@ div.content > div.content_inside > div.content_right {
 div.main_menu {
 	background-color:  #26d2fc;
 	width: 270px;
-	position: absolute;
-	left: 165px;
-	top: 680px;
+	position: relative;
+	left: 0px;
+	top: 0px;
 }
 
 div.main_menu > a {
@@ -251,4 +254,35 @@ div.main_menu > a:first-child {
 div.main_menu > a:hover {
     background-color: #333;
     color: #fff;
+}
+
+
+/* 3 LEFT BANNER now is open */
+
+div.now_is_open {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    width: 270px;
+    left: 0px;
+    height: 300px;
+    border: 10px solid white;
+    box-sizing: border-box;
+}
+
+div.now_is_open > div.now_is_open_inside {
+    width: 100%;
+    height: 100%;
+    background: url(../images/store.jpg) no-repeat;
+}
+
+div.now_is_open > div.now_is_open_inside > span {
+    font-family: "Raleway Black Italic", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    position: relative;
+    top: 129px;
+    left: 142px;
+    color: #333;
 }
