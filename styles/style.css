@@ -61,7 +61,8 @@ div.header {
 }
 
 body {
-	margin: 0px;
+    margin: 0px;
+    background: rgb(219,238,242); 
 }
 
 div.header_inside {
@@ -186,8 +187,6 @@ div.content {
     width: 100%;
     float: left;
     margin-top: -20px;
-    min-height: 800px;
-    background: #98ffa6;
 }
 
 div.content > div.content_inside {
@@ -210,16 +209,15 @@ div.content > div.content_inside > div.content_left {
     left: 165px;
     top: 680px;
     width: 270px;
-    min-height: inherit;
-    background: #9da2ee;
     float: left;
 }
 
 div.content > div.content_inside > div.content_right {
     width: 870px;
     float: right;
-    min-height: inherit;
-    background: #cc868a;
+    position: absolute;
+    left: 465px;
+    top: 680px;
 }
 
 
@@ -285,4 +283,132 @@ div.now_is_open > div.now_is_open_inside > span {
     top: 129px;
     left: 142px;
     color: #333;
+}
+
+/* 4 COMMODITIES */
+
+/* 4.1 Content_header */
+
+div.content_header {
+    position: relative;
+    top: 0px;
+    float: left;
+    margin: 0px;
+    height: 78px;
+    width: 820px;
+    line-height: 78px;
+    padding: 0 25px;
+    background: #f8f8f8;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+/* 4.2 Products */
+
+div.products_wrap {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+div.products_wrap:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* 4.2.0 product unit */
+
+div.products_wrap > div.product_unit {
+    background-color: #ffffff;
+    width: 270px;
+    height: 320px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 0px; 
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* 4.2.1 product img and corners */
+
+div.products_wrap > div.product_unit > img.product_image {
+    width: 100%;
+    height: 235px;
+    margin-bottom: 19px;
+}
+
+div.products_wrap > div.product_unit > div.new_product_corner {
+	background: url(../images/products/corners/new-corner.png) no-repeat;
+	width: 46px;
+	height: 46px;
+	font-family: "Roboto Regular", sans-serif;
+	font-size: 9px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	padding: 9px 0px 0px 22px;
+	color: white;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 1;
+	box-sizing: border-box;
+}
+
+div.products_wrap > div.product_unit > div.hot_product_corner {
+	background: url(../images/products/corners/hot-corner.png) no-repeat;
+	width: 46px;
+	height: 46px;
+	font-family: "Roboto Regular", sans-serif;
+	font-size: 9px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	padding: 9px 0px 0px 22px;
+	color: black;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 1;
+	box-sizing: border-box;
+}
+
+/* 4.2.2. product name */
+div.products_wrap > div.product_unit > div.product_name {
+    width: 155px;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 14px;
+    color: #333;
+    float: left;
+    max-height: 2.4em;
+    overflow: hidden;
+}
+
+/* 4.2.3. product prices */
+div.products_wrap > div.product_unit > div.price_wrap {
+    float: right;
+    font-family: "Roboto Black Italic", sans-serif;
+    color: #333;
+    text-align: right;
+}
+
+div.products_wrap > div.product_unit > div.price_wrap > div.price {
+    font-size: 18px;
+}
+
+div.products_wrap > div.product_unit > div.price_wrap > div.old_price {
+    color: #e24602;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+/* 4.3 product unit multiplucation */
+
+div.products_wrap > div.product_unit:nth-child(3n) {
+    margin-right: 0px;
+}
+
+div.products_wrap > div.product_unit:nth-child(n+4) {
+    margin-top: 30px;
 }
