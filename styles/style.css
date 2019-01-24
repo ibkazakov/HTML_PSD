@@ -1,56 +1,61 @@
 /* fonts loading */
+
 @font-face {
-    font-family: "Raleway Black";
-    src: url(../fonts/Raleway-Black.ttf);
+	font-family: "Raleway Black";
+	src: url(../fonts/Raleway-Black.ttf);
 }
 
 @font-face {
-    font-family: "Raleway Black Italic";
-    src: url(../fonts/Raleway-Black-Italic.ttf);
+	font-family: "Raleway Black Italic";
+	src: url(../fonts/Raleway-Black-Italic.ttf);
 }
 
 @font-face {
-    font-family: "Raleway Bold";
-    src: url(../fonts/Raleway-Bold.ttf);
+	font-family: "Raleway Bold";
+	src: url(../fonts/Raleway-Bold.ttf);
 }
 
 @font-face {
-    font-family: "Raleway Bold Italic";
-    src: url(../fonts/Raleway-Bold-Italic.ttf);
+	font-family: "Raleway Bold Italic";
+	src: url(../fonts/Raleway-Bold-Italic.ttf);
 }
 
 @font-face {
-    font-family: "Raleway Extra Bold";
-    src: url(../fonts/Raleway-ExtraBold.ttf);
+	font-family: "Raleway Extra Bold";
+	src: url(../fonts/Raleway-ExtraBold.ttf);
 }
 
 @font-face {
-    font-family: "Raleway Regular";
-    src: url(../fonts/Raleway-Regular.ttf);
+	font-family: "Raleway Regular";
+	src: url(../fonts/Raleway-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Roboto Black";
-    src: url(../fonts/Roboto-Black.ttf);
+	font-family: "Roboto Black";
+	src: url(../fonts/Roboto-Black.ttf);
 }
 
 @font-face {
-    font-family: "Roboto Black Italic";
-    src: url(../fonts/Roboto-Black-Italic.ttf);
+	font-family: "Roboto Black Italic";
+	src: url(../fonts/Roboto-Black-Italic.ttf);
 }
 
 @font-face {
-    font-family: "Roboto Bold";
-    src: url(../fonts/Roboto-Bold.ttf);
+	font-family: "Roboto Bold";
+	src: url(../fonts/Roboto-Bold.ttf);
 }
 
 @font-face {
-    font-family: "Roboto Regular";
-    src: url(../fonts/Roboto-Regular.ttf);
+	font-family: "Roboto Regular";
+	src: url(../fonts/Roboto-Regular.ttf);
 }
 
 
 /* 1.header */
+
+html {
+	width: 1500px;
+}
 
 div.header {
 	height: 700px;
@@ -60,9 +65,9 @@ div.header {
 }
 
 body {
-    margin: 0px;
-    width: 1500px;
-    background: rgb(219,238,242); 
+	margin: 0px;
+	width: 1500px;
+	background: rgb(219, 238, 242);
 }
 
 div.header_inside {
@@ -70,6 +75,7 @@ div.header_inside {
 	width: inherit;
 	margin: 0px;
 }
+
 
 /* 1.1. surfhouse logo */
 
@@ -79,10 +85,11 @@ div.header_inside img.surfhouse_logo {
 	top: 24px;
 }
 
+
 /* 1.2 welcome */
 
 div.welcome_wrap {
-	background-color:  #fff51f;
+	background-color: #fff51f;
 	width: 270px;
 	height: 300px;
 	padding: 82px 25px 0px 25px;
@@ -92,20 +99,24 @@ div.welcome_wrap {
 	box-sizing: border-box;
 }
 
+
 /* 1.2.1 WELCOME TO SURFACE */
 
-div.welcome_wrap > div.welcome {
+div.welcome_wrap>div.welcome {
 	font-family: "Raleway Bold", sans-serif;
-	color:  #333333;
-	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	color: #333333;
+	font-size: 30px;
+	/* Приближение из-за подстановки шрифтов */
 	font-weight: 700;
-	line-height: 30px;/* Приближение из-за подстановки шрифтов */
+	line-height: 30px;
+	/* Приближение из-за подстановки шрифтов */
 	text-align: left;
 }
 
+
 /* 1.2.2. the only online store... */
 
-div.welcome_wrap > div.welcome_text {
+div.welcome_wrap>div.welcome_text {
 	font-family: "Raleway Bold Italic", sans-serif;
 	font-size: 18px;
 	line-height: 14px;
@@ -113,249 +124,258 @@ div.welcome_wrap > div.welcome_text {
 	color: #333;
 }
 
+
 /* 1.3. social net icons */
 
 div.icons_wrap {
 	position: absolute;
 	left: 1151px;
-    	top: 50px;
+	top: 50px;
 	display: flex;
 	width: 120px;
 	justify-content: space-between;
 }
 
-div.icons_wrap > a {
+div.icons_wrap>a {
 	text-decoration: none;
 }
 
-div.icons_wrap > a > i {
+div.icons_wrap>a>i {
 	color: #fff;
 }
 
-div.icons_wrap > a > i:hover {
+div.icons_wrap>a>i:hover {
 	color: #abeafa;
 }
+
 
 /* 1.4. FUNRIDE */
 
 div.funride_wrap {
-    position: absolute;
-    left: 913px;
-    top: 243px;
+	position: absolute;
+	left: 913px;
+	top: 243px;
 }
 
-div.funride_wrap > div.funride_head {
-    font-family: "Raleway Extra Bold", sans-serif;
-    color: #fff51f;
-    font-size: 48px;
-    line-height: 34px;
-    text-transform: uppercase;
+div.funride_wrap>div.funride_head {
+	font-family: "Raleway Extra Bold", sans-serif;
+	color: #fff51f;
+	font-size: 48px;
+	line-height: 34px;
+	text-transform: uppercase;
 }
 
-div.funride_wrap > div.funride_desc {
-    font-family: "Raleway Regular", sans-serif;
-    color: #fff51f;
-    font-size: 18px;
-    margin-top: 5px;
+div.funride_wrap>div.funride_desc {
+	font-family: "Raleway Regular", sans-serif;
+	color: #fff51f;
+	font-size: 18px;
+	margin-top: 5px;
 }
 
-div.funride_wrap > a.funride_button {
-    background-color: #fff51f;
-    width: 124px;
-    height: 49px;
-    display: block;
-    line-height: 49px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 14px;
-    font-family: "Raleway Black", sans-serif;
-    text-transform: uppercase;
-    color: #000;
-    margin-top: 62px;
+div.funride_wrap>a.funride_button {
+	background-color: #fff51f;
+	width: 124px;
+	height: 49px;
+	display: block;
+	line-height: 49px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	font-family: "Raleway Black", sans-serif;
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 62px;
 }
 
-div.funride_wrap > div.funride_button:hover {
-    color: #fff51f;
-    background-color: #000;
+div.funride_wrap>div.funride_button:hover {
+	color: #fff51f;
+	background-color: #000;
 }
 
 
 /* 2 LEFT MENU */
 
+
 /* 2.1 content */
+
 div.content {
-    width: 1170px;
-    margin: 0;    
-    position: relative;
-    left: 165px;
-    top: -20px;
+	width: 1170px;
+	margin-top: -20px;
 }
 
-div.content > div.content_inside {
-    width: 1170px;
-    margin: 0;
-    position: relative;
-    top: 0px;
-    left: 0px;
+div.content>div.content_inside {
+	width: 1170px;
+	margin: 0;
+	position: relative;
+	left: 165px;
 }
 
 div.content:after,
-div.content > div.content_inside:after {
-    content: '';
-    clear: both;
-    display: block;
+div.content>div.content_inside:after {
+	content: '';
+	clear: both;
+	display: block;
 }
 
+
 /* 2.2 left, right */
-div.content > div.content_inside > div.left_and_right {
+
+div.content>div.content_inside>div.left_and_right {
 	position: relative;
 	top: 0px;
 	left: 0px;
-        margin: 0;
-        width: inherit;
+	margin: 0;
+	width: inherit;
 }
 
-div.content > div.content_inside > div.left_and_right > div.content_left {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 270px;
-    float: left;
+div.content>div.content_inside>div.left_and_right>div.content_left {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 270px;
+	float: left;
 }
 
-div.content > div.content_inside > div.left_and_right > div.content_right {
-    position: relative;
-    top: 0px;
-    left: 30px;
-    width: 870px;
-    float: left;
+div.content>div.content_inside>div.left_and_right>div.content_right {
+	position: relative;
+	top: 0px;
+	left: 30px;
+	width: 870px;
+	float: left;
 }
+
 
 /* 2.3. main_menu */
+
 div.main_menu {
-	background-color:  #26d2fc;
+	background-color: #26d2fc;
 	width: 270px;
 	position: relative;
 	left: 0px;
 	top: 0px;
 }
 
-div.main_menu > a {
-    display: block;
-    height: 37px;
-    line-height: 37px;
-    text-transform: uppercase;
-    font-family: "Roboto Black", sans-serif;
-    font-size: 14px;
-    color: #000;
-    text-decoration: none;
-    padding: 0px 40px;
+div.main_menu>a {
+	display: block;
+	height: 37px;
+	line-height: 37px;
+	text-transform: uppercase;
+	font-family: "Roboto Black", sans-serif;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	padding: 0px 40px;
 }
 
-div.main_menu > a:first-child {
-    height: 66px;
-    background: #333;
-    color: #fff;
-    line-height: 66px;
+div.main_menu>a:first-child {
+	height: 66px;
+	background: #333;
+	color: #fff;
+	line-height: 66px;
 }
 
-div.main_menu > a:hover {
-    background-color: #333;
-    color: #fff;
+div.main_menu>a:hover {
+	background-color: #333;
+	color: #fff;
 }
 
 
 /* 3 LEFT BANNER now is open */
 
 div.now_is_open {
-    margin-top: 30px;
-    margin-left: 0px;
-    margin-right: 0px;
-    position: relative;
-    width: 270px;
-    left: 0px;
-    height: 300px;
-    border: 10px solid white;
-    box-sizing: border-box;
+	margin-top: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	position: relative;
+	width: 270px;
+	left: 0px;
+	height: 300px;
+	border: 10px solid white;
+	box-sizing: border-box;
 }
 
-div.now_is_open > div.now_is_open_inside {
-    width: 100%;
-    height: 100%;
-    background: url(../images/store.jpg) no-repeat;
+div.now_is_open>div.now_is_open_inside {
+	width: 100%;
+	height: 100%;
+	background: url(../images/store.jpg) no-repeat;
 }
 
-div.now_is_open > div.now_is_open_inside > span {
-    font-family: "Raleway Black Italic", sans-serif;
-    font-size: 36px;
-    text-transform: uppercase;
-    position: relative;
-    top: 129px;
-    left: 142px;
-    color: #333;
+div.now_is_open>div.now_is_open_inside>span {
+	font-family: "Raleway Black Italic", sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	position: relative;
+	top: 129px;
+	left: 142px;
+	color: #333;
 }
+
 
 /* 4 COMMODITIES */
+
 
 /* 4.1 Content_header */
 
 div.content_header {
-    position: relative;
-    top: 0px;
-    margin: 0px;
-    height: 78px;
-    width: 820px;
-    line-height: 78px;
-    padding: 0 25px;
-    background: #f8f8f8;
-    font-family: "Roboto Black Italic", sans-serif;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #707070;
-    margin-bottom: 30px;
+	position: relative;
+	top: 0px;
+	margin: 0px;
+	height: 78px;
+	width: 820px;
+	line-height: 78px;
+	padding: 0 25px;
+	background: #f8f8f8;
+	font-family: "Roboto Black Italic", sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #707070;
+	margin-bottom: 30px;
 }
+
 
 /* 4.2 Products */
 
 div.products_wrap {
-    width: 100%;
-    margin-bottom: 30px;
+	width: 100%;
+	margin-bottom: 30px;
 }
 
 div.products_wrap:after {
-    content: '';
-    clear: both;
-    display: block;
+	content: '';
+	clear: both;
+	display: block;
 }
+
 
 /* 4.2.0 product unit */
 
-div.products_wrap > div.product_unit {
-    background-color: #ffffff;
-    width: 270px;
-    height: 320px;
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 0px; 
-    padding: 10px;
-    box-sizing: border-box;
-    position: relative;
+div.products_wrap>div.product_unit {
+	background-color: #ffffff;
+	width: 270px;
+	height: 320px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	padding: 10px;
+	box-sizing: border-box;
+	position: relative;
 }
+
 
 /* 4.2.1 product img and corners */
 
-div.products_wrap > div.product_unit > img.product_image {
-    width: 100%;
-    height: 235px;
-    margin-bottom: 19px;
+div.products_wrap>div.product_unit>img.product_image {
+	width: 100%;
+	height: 235px;
+	margin-bottom: 19px;
 }
 
-div.products_wrap > div.product_unit > div.new_product_corner {
+div.products_wrap>div.product_unit>div.new_product_corner {
 	background: url(../images/products/corners/new-corner.png) no-repeat;
 	width: 46px;
 	height: 46px;
 	font-family: "Roboto Regular", sans-serif;
-	font-size: 9px;/* Приближение из-за подстановки шрифтов */
+	font-size: 9px;
 	font-weight: 400;
 	padding: 9px 0px 0px 22px;
 	color: white;
@@ -366,12 +386,13 @@ div.products_wrap > div.product_unit > div.new_product_corner {
 	box-sizing: border-box;
 }
 
-div.products_wrap > div.product_unit > div.hot_product_corner {
+div.products_wrap>div.product_unit>div.hot_product_corner {
 	background: url(../images/products/corners/hot-corner.png) no-repeat;
 	width: 46px;
 	height: 46px;
 	font-family: "Roboto Regular", sans-serif;
-	font-size: 9px;/* Приближение из-за подстановки шрифтов */
+	font-size: 9px;
+	/* Приближение из-за подстановки шрифтов */
 	font-weight: 400;
 	padding: 9px 0px 0px 22px;
 	color: black;
@@ -382,216 +403,329 @@ div.products_wrap > div.product_unit > div.hot_product_corner {
 	box-sizing: border-box;
 }
 
+
 /* 4.2.2. product name */
-div.products_wrap > div.product_unit > div.product_name {
-    width: 155px;
-    font-family: "Roboto Black Italic", sans-serif;
-    font-size: 14px;
-    color: #333;
-    float: left;
-    max-height: 2.4em;
-    overflow: hidden;
+
+div.products_wrap>div.product_unit>div.product_name {
+	width: 155px;
+	font-family: "Roboto Black Italic", sans-serif;
+	font-size: 14px;
+	color: #333;
+	float: left;
+	max-height: 2.4em;
+	overflow: hidden;
 }
+
 
 /* 4.2.3. product prices */
-div.products_wrap > div.product_unit > div.price_wrap {
-    float: right;
-    font-family: "Roboto Black Italic", sans-serif;
-    color: #333;
-    text-align: right;
+
+div.products_wrap>div.product_unit>div.price_wrap {
+	float: right;
+	font-family: "Roboto Black Italic", sans-serif;
+	color: #333;
+	text-align: right;
 }
 
-div.products_wrap > div.product_unit > div.price_wrap > div.price {
-    font-size: 18px;
+div.products_wrap>div.product_unit>div.price_wrap>div.price {
+	font-size: 18px;
 }
 
-div.products_wrap > div.product_unit > div.price_wrap > div.old_price {
-    color: #e24602;
-    font-size: 14px;
-    text-decoration: line-through;
+div.products_wrap>div.product_unit>div.price_wrap>div.old_price {
+	color: #e24602;
+	font-size: 14px;
+	text-decoration: line-through;
 }
+
 
 /* 4.3 product unit multiplucation */
 
-div.products_wrap > div.product_unit:nth-child(3n) {
-    margin-right: 0px;
+div.products_wrap>div.product_unit:nth-child(3n) {
+	margin-right: 0px;
 }
 
-div.products_wrap > div.product_unit:nth-child(n+4) {
-    margin-top: 30px;
+div.products_wrap>div.product_unit:nth-child(n+4) {
+	margin-top: 30px;
 }
+
 
 /* 5 BRANDS */
 
 div.brands {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    clear: both;
-    height: 160px;
-    display: flex;
-    background: #fff;
-    justify-content: space-between;
-    align-items: center;
-    padding: 14px;
-    box-sizing: border-box;
+	clear: both;
+	height: 160px;
+	display: flex;
+	background: #fff;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px;
+	box-sizing: border-box;
 }
+
 
 /* 6 INSTARGAM */
 
 .istagram_wrap {
-    position: relative;
-    background-color: #eaeaea;
-    padding-top: 0px;
-    box-sizing: border-box;
+	position: relative;
+	background-color: #eaeaea;
+	padding-top: 0px;
+	box-sizing: border-box;
 }
 
 .instagram_head {
-    width: 100%;
-    height: 105px;
-    text-align: center;
-    font-size: 18px;
-    font-family: "Roboto Black Italic", sans-serif;
+	width: 100%;
+	height: 105px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Roboto Black Italic", sans-serif;
 }
 
-.instagram_head > .inst_text > i {
-    font-size: 32px;
-    font-weight: bold;
-    position: relative;
-    top: 0px;
+.instagram_head>.inst_text>i {
+	font-size: 32px;
+	font-weight: bold;
+	position: relative;
+	top: 0px;
 }
 
-.instagram_head > .inst_text {
-   position: relative;
-   top: 51px;
+.instagram_head>.inst_text {
+	position: relative;
+	top: 51px;
 }
 
 .instagram_head span {
-    font-size: 22px;
+	font-size: 22px;
 }
 
 .instagram_images {
-    margin-top: 29px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0px;
+	margin-top: 29px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
 }
 
 .instagram_images img {
-    border: 8px solid #fff;
-    box-sizing: border-box;
+	border: 8px solid #fff;
+	box-sizing: border-box;
 }
+
 
 /* 7 BIG SOCIAL NET'S BUTTONS */
+
 .social_b_wrap {
-    position: relative;
-    height: 150px;
-    display: flex;
-    margin-top: 60px;
+	position: relative;
+	height: 150px;
+	display: flex;
+	margin-top: 60px;
 }
 
-.social_b_wrap > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: calc(100%/3);
-    height: inherit;
-    text-decoration: none;
-    color: #fff;
-    font-size: 4rem;
+.social_b_wrap>a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: calc(100%/3);
+	height: inherit;
+	text-decoration: none;
+	color: #fff;
+	font-size: 4rem;
+}
+
+a.fb-big-button {
+	background-color: #3b5997
+}
+
+a.tw-big-button {
+	background-color: #3fccfd
+}
+
+a.pin-big-button {
+	background-color: #cb2027
 }
 
 /* 8. FOOTER */
 
+
 /* 8.1 subblocks */
 
 .footer {
-    position: relative;
-    top: 0px;
-    background-color: #373737;
-    color: #fff;
-    width: 1500px;
+	position: relative;
+	top: 0px;
+	background-color: #373737;
+	color: #fff;
+	width: 1500px;
 }
 
 .footer .footer_inside {
-    width: inherit;
-    margin: 0 auto;
-    min-height: 301px;
-    justify-content: space-between;
-    padding-top: 75px;
-    padding-left: 192px;
-    box-sizing: border-box;
+	width: inherit;
+	margin: 0 auto;
+	min-height: 301px;
+	justify-content: space-between;
+	padding-top: 75px;
+	padding-left: 192px;
+	box-sizing: border-box;
 }
 
 .footer .footer_inside .f_inside_wrap {
-	width: inherit;
-        min-height: 226px;
-        display: flex;
+	width: 1308px;
+	min-height: 226px;
+	display: flex;
 }
 
 .footer .footer_copyright {
-    height: 47px;
-    background: #333;
-    line-height: 47px;
+	height: 47px;
+	background: #333;
+	line-height: 47px;
 }
+
 
 /* 8.2. Copyright */
 
 .footer .footer_copyright .copyright_inside {
-   height: inherit;
-   width: inherit;
+	height: inherit;
+	width: inherit;
 }
 
 .footer .footer_copyright .copyright_text {
-       float: left;
-       font-size: 13px;
-       font-family: "Roboto Regular", sans-serif;
-       position: relative;
-       left: 171px;
+	float: left;
+	font-size: 13px;
+	font-family: "Roboto Regular", sans-serif;
+	position: relative;
+	left: 171px;
 }
 
 .footer .footer_copyright .copyright_socials {
-    height: inherit;
-    float: right;
-    width: 178px;
-    display: flex;
-    position: relative;
-    right: 201px;
-    justify-content: space-between;
-    align-items: center;
+	height: inherit;
+	float: right;
+	width: 178px;
+	display: flex;
+	position: relative;
+	right: 201px;
+	justify-content: space-between;
+	align-items: center;
 }
+
 
 /* 8.3 footer categories */
 
-
-.f_inside_wrap > div > .column_head {
-   font-family: "Raleway Extra Bold", sans-serif;
-   color:  #ffffff;
-   font-size: 18px;/* Приближение из-за подстановки шрифтов */
-   font-weight: 700;
-   margin-bottom: 28px;
+.f_inside_wrap>div>.column_head {
+	font-family: "Raleway Extra Bold", sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	margin-bottom: 28px;
 }
 
-.f_inside_wrap > div > .column_links > a {
-    font-family: "Roboto Regular", sans-serif;
-    font-size: 12px;
-    color: inherit;
-    text-decoration: none;
-    display: block;
-    line-height: 18px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 400;
+.f_inside_wrap>div>.column_links>a {
+	font-family: "Roboto Regular", sans-serif;
+	font-size: 12px;
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	line-height: 18px;
+	/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
 }
+
 
 /* 8.3.1 Category */
-.f_inside_wrap > div.category {
-   width: 100px; 
+
+.f_inside_wrap>div.category {
+	width: 200px;
 }
+
 
 /* 8.3.2 Our Account */
-.f_inside_wrap > div.account {
-   position: relative;
-   left: 98px;
-   width: 115px;
+
+.f_inside_wrap>div.account {
+	width: 198px;
 }
 
+
 /* 8.3.3 Our support */
+
+.f_inside_wrap>div.support {
+	position: relative;
+	width: 185px;
+}
+
+
+/* 8.3.4 Newsletter*/
+
+.f_inside_wrap>div.newsletter {
+	position: relative;
+	width: 302px;
+}
+
+.column_news_letter {
+	font-family: "Roboto Regular", sans-serif;
+	font-size: 12px;
+}
+
+.column_news_letter>.news_letter_text {
+	margin-bottom: 20px;
+}
+
+.column_news_letter>input {
+	background-color: #fff51f;
+	width: 180px;
+	height: 30px;
+	outline: none;
+	border: none;
+	padding: 0 5px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.column_news_letter>button {
+	width: 71px;
+	height: 30px;
+	background: #000;
+	color: #fff;
+	font-family: "Roboto Regular", sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	border: 0;
+	outline: none;
+}
+
+.column_news_letter>button: hover {
+	background: #fff;
+	color: #000;
+	cursor: pointer;
+}
+
+.column_news_letter>.cards_wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+	width: 267px;
+	position: relative;
+	right: 9px;
+}
+
+
+/* 8.4.5 About */
+
+.f_inside_wrap>.about {
+	width: 232px;
+	font-family: "Roboto Regular", sans-serif;
+}
+
+.f_inside_wrap>.about div.about_text {
+	font-size: 12px;
+}
+
+.f_inside_wrap>.about div.about_phone {
+	font-size: 14px;
+	margin-top: 14px;
+}
+
+.f_inside_wrap>.about div.about_email {
+	margin-top: 14px;
+	color: #faef03;
+	font-size: 14px;
+}
+
+.f_inside_wrap>.about div.about_phone>span,
+.f_inside_wrap>.about div.about_email>span {
+	margin-right: 10px;
+}
